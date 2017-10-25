@@ -33,7 +33,7 @@ ccminer_SOURCES	= elist.h miner.h compat.h \
 			cuda_checkhash.cu \
 			sph/blake.c sph/keccak.c sph/shavite.c sph/simd.c sph/groestl.c\
 			sph/sha2.c sph/cubehash.c sph/skein.c sph/bmw.c sph/jh.c \
-			sph/echo.c sph/luffa.c sph/fugue.c sph/hamsi.c \
+			sph/echo.c sph/luffa.c sph/fugue.c sph/sm3.c sph/hamsi.c \
 			sph/whirlpool.c sph/shabal.c sph/sha2big.c sph/haval.c sph/ripemd.c sph/sph_sha2.c \
 			sph/streebog.c \
 			sph/blake2b.c \
@@ -53,6 +53,7 @@ ccminer_SOURCES	= elist.h miner.h compat.h \
 			x11/x11.cu x11/x11evo.cu x11/c11.cu \
 			streebog/cuda_streebog.cu streebog/cuda_keccak_streebog.cu \
 			streebog/sib.cu streebog/veltor.cu \
+			x14/cuda_sm3.cu \
 			x13/cuda_x13_hamsi_fugue512.cu \
 			x13/cuda_x13_fugue512.cu x13/cuda_x13_hamsi512.cu \
 			x13/x13.cu \
