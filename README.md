@@ -7,6 +7,8 @@ Optimized SM3 algorithm, and performance is close to x13.
 
 Recommended the TDP limited to 80%.
 
+support -a x14 and hsr.
+
 Fork by tpruvot@github with X14,X15,X17,Blake256,BlakeCoin,Lyra2RE,Skein,ZR5 and others, check the [README.txt](README.txt)
 
 Tpruvot BTC donation address: 1AJdfCpLWPNoAMDfHF1wD5y8VgKSSTHxPo
