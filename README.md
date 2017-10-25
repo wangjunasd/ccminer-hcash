@@ -1,7 +1,11 @@
 ccminer
 =======
 
-Based on Christian Buchner's &amp; Christian H.'s CUDA project, no more active on github recently.
+Based on Christian Buchner's &amp; Christian H.'s &amp; alexis' CUDA project.
+
+Optimized SM3 algorithm, and performance is close to x13.
+
+Recommended the TDP limited to 80%.
 
 Fork by tpruvot@github with X14,X15,X17,Blake256,BlakeCoin,Lyra2RE,Skein,ZR5 and others, check the [README.txt](README.txt)
 
